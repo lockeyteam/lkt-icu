@@ -1,4 +1,5 @@
 # Vonge Zola Theme
+
 ![](screenshot.png)
 
 This is a Zola port of the [Vonge Hugo Bookshop template](https://github.com/CloudCannon/vonge-hugo-bookshop-template), originally created by [CloudCannon](https://cloudcannon.com/) and licensed under the MIT License.
@@ -11,13 +12,13 @@ Demo @ https://paberr.github.io/vonge-zola-theme/
 
 ## 🚀 Features
 
-* Flexible homepage and inner pages using content blocks
-* Customisable content via `extra.content_blocks` in front matter
-* Clean typography and responsive layout
-* Blog section with pagination
-* Portfolio and testimonial support
-* SEO-friendly structure
-* MIT licensed
+- Flexible homepage and inner pages using content blocks
+- Customisable content via `extra.content_blocks` in front matter
+- Clean typography and responsive layout
+- Blog section with pagination
+- Portfolio and testimonial support
+- SEO-friendly structure
+- MIT licensed
 
 ## 📦 Installation
 

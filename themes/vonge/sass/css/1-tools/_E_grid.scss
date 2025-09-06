@@ -4,10 +4,14 @@ $container-base-width: 1200px;
 $container-offset: $base-spacing-unit;
 
 $desktop: 1024px;
-$tablet:  768px;
-$mobile:  576px;
+$tablet: 768px;
+$mobile: 576px;
 
-$mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
+$mq: (
+  $mobile: $columns,
+  $tablet: $columns,
+  $desktop: $columns,
+);
 
 .container {
   max-width: $container-base-width;
@@ -57,93 +61,85 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   flex: auto;
 }
 
-
 @for $i from 0 through $columns {
   .col-#{$i} {
-    width: calc( #{$i} / #{$columns} * 100% );
+    width: calc(#{$i} / #{$columns} * 100%);
   }
 }
 
 @for $i from 0 through $columns {
   .push-#{$i} {
-    margin-left: calc( #{$i} / #{$columns} * 100% );
+    margin-left: calc(#{$i} / #{$columns} * 100%);
   }
 }
 
 @for $i from 0 through $columns {
   .pull-#{$i} {
-    margin-right: calc( #{$i} / #{$columns} * 100% );
+    margin-right: calc(#{$i} / #{$columns} * 100%);
   }
 }
 
-
 @each $key, $val in $mq {
-
   // DESKTOP
-  @media(max-width: $desktop) {
-
+  @media (max-width: $desktop) {
     @for $i from 0 through $columns {
       .col-d-#{$i} {
-        width: calc( #{$i} / #{$columns} * 100% );
+        width: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .push-d-#{$i} {
-        margin-left: calc( #{$i} / #{$columns} * 100% );
+        margin-left: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .pull-d-#{$i} {
-        margin-right: calc( #{$i} / #{$columns} * 100% );
+        margin-right: calc(#{$i} / #{$columns} * 100%);
       }
     }
   }
 
-
   // TABLET
-  @media(max-width: $tablet) {
-
+  @media (max-width: $tablet) {
     @for $i from 0 through $columns {
       .col-t-#{$i} {
-        width: calc( #{$i} / #{$columns} * 100% );
+        width: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .push-t-#{$i} {
-        margin-left: calc( #{$i} / #{$columns} * 100% );
+        margin-left: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .pull-t-#{$i} {
-        margin-right: calc( #{$i} / #{$columns} * 100% );
+        margin-right: calc(#{$i} / #{$columns} * 100%);
       }
     }
   }
 
   // MOBILE
-  @media(max-width: $mobile) {
-
+  @media (max-width: $mobile) {
     @for $i from 0 through $columns {
       .col-m-#{$i} {
-        width: calc( #{$i} / #{$columns} * 100% );
+        width: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .push-m-#{$i} {
-        margin-left: calc( #{$i} / #{$columns} * 100% );
+        margin-left: calc(#{$i} / #{$columns} * 100%);
       }
     }
 
     @for $i from 0 through $columns {
       .pull-m-#{$i} {
-        margin-right: calc( #{$i} / #{$columns} * 100% );
+        margin-right: calc(#{$i} / #{$columns} * 100%);
       }
     }
   }
-
 }

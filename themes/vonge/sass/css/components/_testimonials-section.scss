@@ -1,12 +1,15 @@
 /* Testimonials Section */
 .testimonial-item {
-
   .testimonial-content {
     width: 100%;
     padding: 32px;
     border-radius: 16px;
     color: $white;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+    background: linear-gradient(
+      90deg,
+      $primary-color 0%,
+      $secondary-color 167%
+    );
 
     .client-meta {
       display: flex;
@@ -114,7 +117,7 @@
     outline: none;
     cursor: pointer;
     overflow: hidden;
-    transition: all .2s ease;
+    transition: all 0.2s ease;
 
     &::after {
       content: "";
@@ -129,8 +132,12 @@
       opacity: 0;
       visibility: hidden;
       overflow: hidden;
-      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
-      transition: all .2s ease;
+      background: linear-gradient(
+        90deg,
+        $primary-color 0%,
+        $secondary-color 167%
+      );
+      transition: all 0.2s ease;
     }
 
     &:hover {

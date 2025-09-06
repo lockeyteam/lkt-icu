@@ -1,11 +1,14 @@
 .c-testimonial-card {
-
   &__content {
     width: 100%;
     padding: 32px;
     border-radius: 16px;
     color: $white;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+    background: linear-gradient(
+      90deg,
+      $primary-color 0%,
+      $secondary-color 167%
+    );
   }
 
   &__client-meta {

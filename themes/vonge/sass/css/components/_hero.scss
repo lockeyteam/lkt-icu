@@ -1,5 +1,6 @@
 /* Hero */
-.c-hero { $c: &;
+.c-hero {
+  $c: &;
   padding: 96px 0;
 
   @media only screen and (max-width: $desktop) {
@@ -7,7 +8,7 @@
   }
 
   @media only screen and (max-width: $tablet) {
-      padding: 40px 0 80px;
+    padding: 40px 0 80px;
   }
 
   @media only screen and (max-width: $mobile) {
@@ -45,7 +46,7 @@
 
   &__right {
     position: relative;
-    
+
     @media only screen and (max-width: 1130px) {
       #{$c}__image {
         width: 400px;
@@ -139,8 +140,8 @@
     .works-button {
       &:hover {
         .circle-bg {
-          transition: all .2s cubic-bezier(.215,.61,.355,1);
-          transform: scale(.94);
+          transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+          transform: scale(0.94);
         }
       }
 
@@ -154,8 +155,12 @@
         font-size: 14px;
         border-radius: 50%;
         will-change: transform;
-        background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
-        transition: all .2s cubic-bezier(.215, .61, .355, 1);
+        background: linear-gradient(
+          90deg,
+          $primary-color 0%,
+          $secondary-color 167%
+        );
+        transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
       }
 
       .button-arrow {
@@ -203,7 +208,13 @@
       border-radius: 60px;
       object-fit: cover;
       user-select: none;
-      box-shadow: 0px 100px 80px rgba($primary-color, 0.07), 0px 41.7776px 33.4221px rgba($primary-color, 0.0503198), 0px 22.3363px 17.869px rgba($primary-color, 0.0417275), 0px 12.5216px 10.0172px rgba($primary-color, 0.035), 0px 6.6501px 5.32008px rgba($primary-color, 0.0282725), 0px 2.76726px 2.21381px rgba($primary-color, 0.0196802);
+      box-shadow:
+        0px 100px 80px rgba($primary-color, 0.07),
+        0px 41.7776px 33.4221px rgba($primary-color, 0.0503198),
+        0px 22.3363px 17.869px rgba($primary-color, 0.0417275),
+        0px 12.5216px 10.0172px rgba($primary-color, 0.035),
+        0px 6.6501px 5.32008px rgba($primary-color, 0.0282725),
+        0px 2.76726px 2.21381px rgba($primary-color, 0.0196802);
       transition: inherit;
       background: $blue-gray;
     }
