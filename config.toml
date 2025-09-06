@@ -47,7 +47,7 @@ description_html = """
 """
 show_projects = true
 projects = [
-  { name = "Matrix", link = "https://web.lkt.icu", image = "projects/matrix.webp" },
+  { name = "Matrix", link = "https://web.lkt.icu", image = "images/projects/matrix.svg" },
 ]
 
 # Member section.
