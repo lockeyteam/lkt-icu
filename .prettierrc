@@ -1,4 +1,13 @@
 {
   "printWidth": 80,
-  "tabWidth": 2
+  "tabWidth": 2,
+  "plugins": ["prettier-plugin-jinja-template", "prettier-plugin-toml"],
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "jinja-template"
+      }
+    }
+  ]
 }
