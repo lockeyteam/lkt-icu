@@ -13,6 +13,7 @@
     devShells.${system}.default = pkgs.mkShell {
       buildInputs = with pkgs; [
         zola
+        nodejs
       ];
 
       # Shell hooks.
@@ -20,6 +21,7 @@
         echo "Entering the development environment!"
         zola --version
 
+        npm install --no-save prettier prettier-plugin-toml prettier-plugin-jinja-template
         trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
