@@ -57,3 +57,7 @@ just build
 ```bash
 just format
 ```
+
+## Acknowledgement
+
+The website is based on [Vonge Zola Theme](https://github.com/paberr/vonge-zola-theme). Thanks all related contributors for making the theme freely available.
