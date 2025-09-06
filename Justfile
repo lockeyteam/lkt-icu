@@ -4,5 +4,5 @@ build:
 dev:
   zola serve
 
-lint:
+format:
   npx prettier --write .
