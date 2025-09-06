@@ -12,6 +12,10 @@ taxonomies = [
     { name = "tags", feed = true},
 ]
 
+# Title section.
+title = "Lockey"
+description = "Homepage of Lockey Team"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
