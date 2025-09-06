@@ -38,11 +38,11 @@ cta_button = "Get in touch"
 works_button_link = "#projects"
 works_button = "See my works"
 
-# Service section.
+# Project section.
 [[extra.content_blocks]]
 block = "projects-section"
-title = "Services"
+title = "Projects"
 description_html = """
-    <p>Services provided by Lockey:</p>
+    <p>Lockey Projects</p>
 """
 show_projects = true
