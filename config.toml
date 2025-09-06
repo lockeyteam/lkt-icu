@@ -24,3 +24,17 @@ highlight_code = true
 [extra]
 # Logo displayed in the upper left corner of page.
 logo_image = "logo-light.webp"
+
+# TODO:
+#   - Add introduction of Lockey.
+#   - Update buttons.
+[[extra.content_blocks]]
+block = "hero"
+title = "Welcome to Lockey Homepage!"
+description_html = "TODO: Lockey Introduction"
+image = "logo-light.webp"
+image_alt = "Lockey Logo"
+cta_button_link = "#contact"
+cta_button = "Get in touch"
+works_button_link = "#projects"
+works_button = "See my works"
