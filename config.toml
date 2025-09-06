@@ -49,3 +49,10 @@ show_projects = true
 projects = [
   { name = "Matrix", link = "https://web.lkt.icu", image = "projects/matrix.webp" },
 ]
+
+# Member section.
+[[extra.content_blocks]]
+block = "testimonials-section"
+title = "Members"
+description_html = ""
+show_testimonials = true

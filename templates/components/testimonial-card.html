@@ -1,0 +1,32 @@
+{% macro testimonial_card(data) %} {% set c = 'c-testimonial-card' %}
+{% set wrapper_tag = "div" %}
+{% if data.extra.link %}
+  {% set wrapper_tag = "a" %}
+{% endif %}
+<{{wrapper_tag}} class="{{c}}"
+{% if data.extra.link %} href="{{data.extra.link}}" target="_blank" {% endif %}>
+  <div class="{{c}}__content">
+    <div class="{{c}}__client-meta">
+      {% if data.extra.image %}
+      <div class="{{c}}__image-container">
+        <img
+          class="{{c}}__client-avatar"
+          src="{{ get_url(path=data.extra.image) }}"
+          alt="{{ data.extra.name }}"
+        />
+      </div>
+      {% endif %}
+      <div class="{{c}}__client-info">
+        {% if data.extra.name %}
+        <h3 class="{{c}}__client-name">{{ data.extra.name }}</h3>
+        {% endif %} {% if data.extra.position %}
+        <p class="{{c}}__client-position">{{ data.extra.position }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% if data.extra.blurb %}
+    <p class="{{c}}__client-text">{{ data.extra.blurb }}</p>
+    {% endif %}
+  </div>
+</{{wrapper_tag}}>
+{% endmacro testimonial_card %}
