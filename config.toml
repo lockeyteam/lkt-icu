@@ -40,6 +40,8 @@ works_button = "See my works"
 
 # Project section.
 [[extra.content_blocks]]
+# TODO:
+#   - Add projects.
 block = "projects-section"
 title = "Projects"
 description_html = """
