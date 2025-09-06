@@ -46,3 +46,6 @@ description_html = """
     <p>Lockey Projects</p>
 """
 show_projects = true
+projects = [
+  { name = "Matrix", link = "https://web.lkt.icu", image = "projects/matrix.webp" },
+]
