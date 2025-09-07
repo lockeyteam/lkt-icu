@@ -2,7 +2,7 @@ build:
   zola build
 
 dev:
-  zola serve
+  zola serve --force
 
 format:
   npx prettier --write .
