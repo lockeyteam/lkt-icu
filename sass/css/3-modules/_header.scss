@@ -1,0 +1,12 @@
+.main-nav {
+  @media only screen and (max-width: $desktop) {
+    position: inherit;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    opacity: 1;
+    overflow: hidden;
+    background: inherit;
+    transition: all 0.25s ease;
+  }
+}
