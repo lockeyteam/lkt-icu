@@ -5,7 +5,7 @@
       <a href="{{ data.link }}" class="{{ c }}__image">
         <img
           loading="lazy"
-          src="{{ get_url(path=(data.image)) }}"
+          src="{% if data.image is starting_with('http') %}{{ data.image }}{% else %}{{ get_url(path=data.image) }}{% endif %}"
           alt="{{ data.name }}"
         />
       </a>
