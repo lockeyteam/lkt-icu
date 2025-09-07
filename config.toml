@@ -44,9 +44,7 @@ works_button = "Team Members"
 [[extra.content_blocks]]
 block = "projects-section"
 title = "Projects"
-description_html = """
-    <p>Lockey Projects</p>
-"""
+description_html = ""
 show_projects = true
 projects = [
   { name = "Matrix", link = "https://web.lkt.icu/", image = "https://raw.githubusercontent.com/matrix-org/matrix.org/refs/heads/main/static/images/matrix-logo.svg" },
