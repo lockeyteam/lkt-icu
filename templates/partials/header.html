@@ -1,0 +1,27 @@
+<!-- begin header -->
+<header class="c-header">
+  <div class="container">
+    <div class="row">
+      <div class="c-header__inner">
+        <div class="logo">
+          <a class="logo__link" href="{{ config.base_url }}">
+            {%- if config.extra.logo_image %}
+              <img
+                class="logo__image"
+                src="{{ get_url(path=config.extra.logo_image) }}"
+                alt="{{ config.title }}"
+              />
+            {% else %}
+              {{ config.title }}
+            {% endif %}
+          </a>
+        </div>
+
+        {% if config.extra.navigation %}
+          <nav class="main-nav">{% include "partials/social-link.html" %}</nav>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
