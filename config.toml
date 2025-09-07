@@ -61,3 +61,7 @@ block = "testimonials-section"
 title = "Members"
 description_html = ""
 show_testimonials = true
+
+# Footer section.
+[extra.footer]
+menu = []
