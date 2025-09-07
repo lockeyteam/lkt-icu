@@ -20,13 +20,13 @@ Create `${member}.md` under `content/testimonials/` folder, and the template of 
 +++
 [extra]
 name = "Member Name"
-image = "/images/avatars/your-avatar"
+image = "URL or /images/avatars/your-avatar"
 blurb = "Introduction or Slogan"
 link = "Personal Website Link (Optional)"
 +++
 ```
 
-> Please put your avatar under `images/avatars/`.
+> Please put your avatar under `images/avatars/` if you store the avatar in this repository.
 
 ## Development
 
