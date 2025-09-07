@@ -20,8 +20,8 @@ description = "Homepage of Lockey Team"
 highlight_code = true
 
 [extra]
-# Logo displayed in the upper left corner of page.
-logo_image = "logo-light.webp"
+# Unset logo image to display title in the upper left corner.
+logo_image = ""
 
 # Social links.
 social_icons = [{ url = "https://github.com/lockey-org", icon = "GitHub" }]
