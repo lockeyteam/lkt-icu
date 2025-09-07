@@ -65,3 +65,4 @@ show_testimonials = true
 # Footer section.
 [extra.footer]
 menu = []
+copyright = "© 2023-2025 Lockey"
