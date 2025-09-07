@@ -36,10 +36,10 @@ title = "Welcome to Lockey Homepage!"
 description_html = "TODO: Lockey Introduction"
 image = "logo-light.webp"
 image_alt = "Lockey Logo"
-cta_button_link = "#contact"
-cta_button = "Get in touch"
-works_button_link = "#projects"
-works_button = "See my works"
+cta_button_link = "#projects"
+cta_button = "Our Projects"
+works_button_link = "#members"
+works_button = "Team Members"
 
 # Project section.
 [[extra.content_blocks]]
