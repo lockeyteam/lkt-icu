@@ -26,6 +26,8 @@ link = "Personal Website Link (Optional)"
 +++
 ```
 
+> Please put your avatar under `images/avatars/`.
+
 ## Development
 
 1. Clone and enter the repository.
