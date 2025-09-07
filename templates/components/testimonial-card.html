@@ -11,7 +11,7 @@
       <div class="{{c}}__image-container">
         <img
           class="{{c}}__client-avatar"
-          src="{{ get_url(path=data.extra.image) }}"
+          src="{% if data.extra.image is starting_with('http') %}{{ data.extra.image }}{% else %}{{ get_url(path=data.extra.image) }}{% endif %}"
           alt="{{ data.extra.name }}"
         />
       </div>
