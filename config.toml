@@ -28,11 +28,11 @@ social_icons = [{ url = "https://github.com/lockey-org", icon = "GitHub" }]
 
 # Hero section.
 [[extra.content_blocks]]
-# TODO:
-#   - Add introduction of Lockey.
 block = "hero"
 title = "Welcome to Lockey Homepage!"
-description_html = "TODO: Lockey Introduction"
+description_html = """
+<strong>Lockey</strong> was born from the meeting of <em>Ice Year</em> and <em>Yonzilch</em> during their student days. Along the journey of exploring technology, they met other like-minded members and formed this <strong>tech team</strong>. We are passionate about exploring Linux, cutting-edge technologies, and everything we love.
+"""
 image = "logo-light.webp"
 image_alt = "Lockey Logo"
 cta_button_link = "#projects"
