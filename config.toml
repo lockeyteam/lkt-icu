@@ -30,7 +30,6 @@ social_icons = [{ url = "https://github.com/lockey-org", icon = "GitHub" }]
 [[extra.content_blocks]]
 # TODO:
 #   - Add introduction of Lockey.
-#   - Update buttons.
 block = "hero"
 title = "Welcome to Lockey Homepage!"
 description_html = "TODO: Lockey Introduction"
