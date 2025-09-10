@@ -26,7 +26,7 @@ link = "Personal Website Link (Optional)"
 +++
 ```
 
-> Please put your avatar under `images/avatars/` if you store the avatar in this repository.
+> Please put your avatar under `static/images/avatars/` if you store the avatar in this repository.
 
 ## Development
 
