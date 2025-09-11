@@ -2,4 +2,9 @@
   img {
     object-fit: contain;
   }
+
+  &__info-wrap {
+    overflow: hidden;
+    overflow-wrap: anywhere;
+  }
 }
