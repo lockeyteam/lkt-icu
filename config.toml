@@ -25,6 +25,7 @@ logo_image = ""
 
 # Social links.
 social_icons = [{ url = "https://github.com/lockey-org", icon = "GitHub" }]
+social_media_share_image = "logo-light.webp"
 
 # Hero section.
 [[extra.content_blocks]]
