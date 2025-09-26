@@ -33,7 +33,7 @@ link = "Personal Website Link (Optional)"
 1. Clone and enter the repository.
 
 ```bash
-git clone --recurse-submodules git@github.com:lockeyteam/lkt-icu.git && cd lkt-icu/
+git clone --recurse-submodules git@github.com:lockey-org/lkt-icu.git  && cd lkt-icu/
 ```
 
 2. Enter dev shell.
